@@ -1,6 +1,9 @@
+@import '../utils/variable';
 @import './header';
 @import './cards';
+@import './content';
 
 body {
   margin: 0;
+  display: grid;
 }
