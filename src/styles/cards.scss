@@ -13,6 +13,9 @@
 
   &:hover {
     transform: scale(1.2);
+    .card__title {
+      color: $haver-color;
+    }
   }
 
   &__image {
@@ -31,10 +34,6 @@
     line-height: 18px;
 
     @include smooth-hover;
-
-    &:hover {
-      color: #34568b;
-    }
   }
 
   &__code {

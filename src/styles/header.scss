@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #00acdc;
+  --accent-color: $accent-color;
 }
 
 .header {
@@ -44,7 +44,9 @@
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #000;
+    color: $main-text-color;
+
+    @include smooth-hover;
 
     &::after {
       content: '';
