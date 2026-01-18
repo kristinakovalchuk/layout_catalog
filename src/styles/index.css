@@ -1,7 +1,3 @@
-:root {
-  --accent-color: $accent-color;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -49,15 +45,15 @@
   width: 100%;
   height: 4px;
   border-radius: 8px;
-  background-color: var(--accent-color);
+  background-color: #00acdc;
   opacity: 0;
   transition: opacity 0.3s;
 }
 .nav__link:hover {
-  color: var(--accent-color);
+  color: #00acdc;
 }
 .nav__link--is-active {
-  color: var(--accent-color);
+  color: #00acdc;
 }
 .nav__link--is-active::after {
   opacity: 1;
@@ -75,12 +71,6 @@
   padding: 32px 16px 16px;
   transition: all 0.3s ease;
 }
-.card:hover {
-  transform: scale(1.2);
-}
-.card:hover .card__title {
-  color: #34568b;
-}
 .card__image {
   width: 160px;
   height: 134px;
@@ -95,6 +85,12 @@
   font-size: 12px;
   line-height: 18px;
   transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.card:hover .card__title {
+  color: #34568b;
 }
 .card__code {
   margin: 0 0 16px;

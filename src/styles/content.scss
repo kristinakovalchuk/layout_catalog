@@ -6,7 +6,7 @@
   display: grid;
   justify-content: center;
 
-  grid-template-columns: repeat(1, 200px);
+  grid-template-columns: repeat(1, $max-width-card);
   gap: 46px 48px;
 }
 
