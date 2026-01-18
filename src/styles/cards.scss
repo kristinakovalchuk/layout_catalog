@@ -9,6 +9,12 @@
   margin: 0;
   padding: 32px 16px 16px;
 
+  @include smooth-hover;
+
+  &:hover{
+    transform: scale(1.2);
+  }
+
   &__image {
     width: 160px;
     height: 134px;
@@ -23,6 +29,12 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
+
+    @include smooth-hover;
+
+    &:hover{
+      color:#34568b;
+    }
   }
 
   &__code {
@@ -78,6 +90,8 @@
 
     outline: none;
     cursor: pointer;
+
+    @include smooth-hover;
 
     &:hover {
       background-color: $bg-color;

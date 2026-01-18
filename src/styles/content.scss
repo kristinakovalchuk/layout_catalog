@@ -24,7 +24,7 @@
 
 @media (min-width: 1024px) {
   .catalog__cards {
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(auto-fill, 200px);
   }
 }
 
